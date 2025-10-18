@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: 823339243662.dkr.ecr.us-east-1.amazonaws.com/my-private-docker-hub:latest
+        image: 832721971180.dkr.ecr.us-east-1.amazonaws.com/my-images-hub:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
